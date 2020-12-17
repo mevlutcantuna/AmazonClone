@@ -1,0 +1,19 @@
+.home{
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    &__image{
+        width: 100%; 
+        mask-image: linear-gradient(to bottom,rgb(42, 72, 241) , rgba(0,0,0,0));
+        z-index: -1;
+        margin-bottom: -150px;
+    }
+    &__products{
+        display: flex;
+        z-index: 1;
+        margin: 0 5px 0 5px;
+
+        
+    }
+}

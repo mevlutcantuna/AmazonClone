@@ -1,0 +1,20 @@
+.checkout{
+    padding: 2rem 2rem;
+    background-color: white;
+    display: flex;
+    height: max-content;
+    &__left{
+        margin-right: 2rem;
+        &__ad{
+            margin-bottom: 2rem;
+            width: 100%;
+            flex: 1;
+        }
+    }
+
+    &__right{
+        flex: 1;
+        width: 100%;
+    }
+
+}
